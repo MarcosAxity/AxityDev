@@ -41,7 +41,11 @@ def hackaton_2022(tweeter_user):
     for i,tweet in enumerate(sntwitter.TwitterSearchScraper(query).get_items()):
         if i > 20:
             break
-        attributes_container.append([tweet.user.username, tweet.date, tweet.likeCount, tweet.sourceLabel, tweet.content])
+        attributes_container.append([tweet.user.username,
+                                     tweet.date,
+                                     tweet.likeCount,
+                                     tweet.sourceLabel,
+                                     tweet.content])
         items = tweet.renderedContent.split()
         users_iter = [x for x in items if x.startswith("@")]
         users_iter = [x for x in users_iter if x not in query]
@@ -114,7 +118,8 @@ def hackaton_2022(tweeter_user):
     print("Clean step: complete!")
     print("Dataset created ::: Rows: {} ::: Columns: {}".format(rows, columns))
     
-    main_df.to_csv("main_tweet_df.txt", sep="|")
+    #main_df.to_csv("main_tweet_df.txt", sep="|")
+    main_df["text_clean"].to_csv("text_clean.txt", index=False, header=False)
 
 if "__main__" == __name__:
     hackaton_2022(sys.argv[1])
