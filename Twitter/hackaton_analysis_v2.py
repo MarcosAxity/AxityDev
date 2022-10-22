@@ -38,7 +38,7 @@ def hackaton_2022(tweeter_user):
     query = str(tweeter_user)
 
     # Using TwitterSearchScraper to scrape data and append tweets to list
-    for i,tweet in enumerate(sntwitter.TwitterSearchScraper("from:"+query).get_items()):
+    for i,tweet in enumerate(sntwitter.TwitterSearchScraper(query).get_items()):
         if i > 20:
             break
         attributes_container.append([tweet.user.username, tweet.date, tweet.likeCount, tweet.sourceLabel, tweet.content])
