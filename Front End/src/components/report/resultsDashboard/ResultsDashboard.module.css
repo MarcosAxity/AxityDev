@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  margin-left: 18%;
+}
+
+.result {
+  flex-direction: column;
+}
+
+main h4 {
+  color: #826857;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main p {
+  font-weight: bold;
+  font-size: 15px;
+  color: #a48091;
+  width: 75%;
+}
+
+main p strong {
+  color: #826857;
+}

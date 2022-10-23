@@ -1,0 +1,12 @@
+.resultBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContainer {
+  height: 18vh;
+}
+
+.inputTopic {
+  height: 32vh;
+}

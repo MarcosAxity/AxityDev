@@ -1,0 +1,8 @@
+.imgComponent {
+  display: flex;
+  justify-content: center;
+}
+
+.imgPeople {
+  height: 55vh;
+}
