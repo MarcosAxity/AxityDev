@@ -1,4 +1,4 @@
-# #AbrazaLaDiversidad (Challenge Diversidad e inclusión - reto BBVA)
+# AbrazaLaDiversidad (Challenge Diversidad e inclusión - reto BBVA)
 
 <p align="center"><img src="https://w7.pngwing.com/pngs/771/451/png-transparent-group-of-children-and-earth-illustration-equality-and-diversity-multiculturalism-social-group-child-social-equality-youth-activities-hand-people-friendship-thumbnail.png"/> </p>
 
