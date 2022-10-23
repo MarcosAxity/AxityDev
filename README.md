@@ -36,5 +36,5 @@ Con el propósito de detectar estos sesgos en los contenidos que consumimos a di
 * Melissa Bracamonte Jaraba - **Desarrolladora Frontend**
 * Jessica Astrid Valle Dávila - **Desarrolladora Backend**
 * Emmanuel Rosas López - **Desarrollador Backend**
-* Marcos Olguín Martinez - **Cientifica de datos**
-* Jose Ángel Chavez Vizcaíno - **Desarrolladora Backend**
+* Marcos Olguín Martinez - **Cientifico de datos**
+* Jose Ángel Chavez Vizcaíno - **Desarrollador Backend**
